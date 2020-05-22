@@ -8,7 +8,7 @@ def home():
 
 @app.route('/tushar')
 def tushar():
-	return "Hello Tushar!!"
+	return "Hello Tushar"
 
 # Yash Route - to be writtern by yash
 
