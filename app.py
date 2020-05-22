@@ -10,6 +10,10 @@ def home():
 def tushar():
 	return "Hello Tushar"
 
-# Yash Route - to be writtern by yash
+@app.route('/yash')
+def yash():
+	return "Hello Yash"
+
+
 
 app.run(host='0.0.0.0', port =8000)
