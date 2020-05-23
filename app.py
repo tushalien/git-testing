@@ -11,8 +11,8 @@ def tushar():
 	return "Hello Tushar"
 
 @app.route('/<name>')
-def name():
-	return "Hello %s"%name
+def name(name):
+	return "Hello %s" % name
 
 
 
