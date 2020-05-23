@@ -10,9 +10,9 @@ def home():
 def tushar():
 	return "Hello Tushar"
 
-@app.route('/yash')
-def yash():
-	return "Hello Yash"
+@app.route('/<name>')
+def name():
+	return "Hello %s"%name
 
 
 
